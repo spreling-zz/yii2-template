@@ -12,7 +12,7 @@ In additon to the Yii 2 Advanced Project Template there is a restructure of the 
 idea of Modules and all the components even the core ones are wrapt in modules. Through this it becomes easy to deploy a collection
 of pre build modules in this skeleton to quick build a website.
 
-Documentation is at [docs/guide/README.md](docs/guide/README.md).
+Documentation is at [docs/guide/README.md](wiki/).
 
 [![Latest Stable Version](https://poser.pugx.org/spreling/yii2-template/v/stable)](https://packagist.org/packages/spreling/yii2-template)
 [![Total Downloads](https://poser.pugx.org/spreling/yii2-template/downloads)](https://packagist.org/packages/spreling/yii2-template)
