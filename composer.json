@@ -1,0 +1,43 @@
+{
+    "name": "spreling/yii2-app-template",
+    "description": "Yii 2 Spreling Project Template",
+    "keywords": ["yii2", "framework", "Spreling", "project template"],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Harm Jacob Drijfhout",
+            "email": "harm@spreling.nl",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": ">=2.0.6",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "vendor-dir": "_common/vendor"
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "_common/vendor/npm",
+            "bower-asset-library": "_common/vendor/bower"
+        }
+    }
+}
