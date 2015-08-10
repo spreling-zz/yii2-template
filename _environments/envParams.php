@@ -42,8 +42,8 @@ return [
             'tests/codeception/bin/yii',
         ],
         'setCookieValidationKey' => [
-            'backend/config/main-local.php',
-            'frontend/config/main-local.php',
+            'backend/engine/config/main-local.php',
+            'frontend/engine/config/main-local.php',
         ],
     ],
     'Production' => [
@@ -58,8 +58,8 @@ return [
             'yii',
         ],
         'setCookieValidationKey' => [
-            'backend/config/main-local.php',
-            'frontend/config/main-local.php',
+            'backend/engine/config/main-local.php',
+            'frontend/engine/config/main-local.php',
         ],
     ],
 ];
