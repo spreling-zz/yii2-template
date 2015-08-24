@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,800,800italic,900italic,900);
+
+svg .text {
+    font-family: "Alegreya Sans SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:200;
+    font-style:normal;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+
+    background: rgba(251, 229, 229, 1);
+    border: 2px dashed rgba(240, 128, 128, 1);
+
+}
+
+body > .container-fluid {
+    padding: 60px 15px 0;
+}
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navbar-default {
+    background: rgb(217, 229, 239);
+    border: 2px dashed rgba(70,130,179,1);
+}
+.center {
+    background: rgba(232, 251, 232, 1);
+    border: 2px dashed rgba(144, 238, 144, 1);
+    padding: 15px;
+
+}
+
