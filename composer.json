@@ -25,7 +25,8 @@
         "yiisoft/yii2": ">=2.0.6",
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*",
-        "himiklab/yii2-recaptcha-widget": "1.0.4"
+        "himiklab/yii2-recaptcha-widget": "1.0.4",
+        "romdim/yii2-bootstrap-material": "1.0"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "*",

@@ -34,8 +34,10 @@ return [
         'setWritable' => [
             'backend/runtime',
             'backend/web/assets',
+            'backend/web/bundles',
             'frontend/runtime',
             'frontend/web/assets',
+            'frontend/web/bundles',
         ],
         'setExecutable' => [
             'yii',
